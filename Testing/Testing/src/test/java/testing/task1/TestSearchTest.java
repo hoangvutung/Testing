@@ -1,11 +1,11 @@
 package testing.task1;
 
+
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestSearchTest {
-
 	@Test
 	public void test() {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\pc\\Downloads\\chromedriver.exe");
