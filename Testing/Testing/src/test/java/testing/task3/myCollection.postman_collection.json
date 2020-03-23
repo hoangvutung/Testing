@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "https://jsonplaceholder.typicode.com/",
+			"name": "First Request",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -26,27 +26,7 @@
 			"response": []
 		},
 		{
-			"name": "https://jsonplaceholder.typicode.com/users",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://jsonplaceholder.typicode.com/users",
-					"protocol": "https",
-					"host": [
-						"jsonplaceholder",
-						"typicode",
-						"com"
-					],
-					"path": [
-						"users"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "https://jsonplaceholder.typicode.com/posts",
+			"name": "Second Request",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -66,9 +46,29 @@
 			"response": []
 		},
 		{
-			"name": "https://jsonplaceholder.typicode.com/users",
+			"name": "Third Request",
 			"request": {
 				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/users",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Request",
+			"request": {
+				"method": "POST",
 				"header": [],
 				"url": {
 					"raw": "https://jsonplaceholder.typicode.com/users",
