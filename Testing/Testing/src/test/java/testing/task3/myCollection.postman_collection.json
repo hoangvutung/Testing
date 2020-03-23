@@ -11,14 +11,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://jsonplaceholder.typicode.com/",
-					"protocol": "https",
+					"raw": "http://jsonplaceholder.typicode.com/todos/",
+					"protocol": "http",
 					"host": [
 						"jsonplaceholder",
 						"typicode",
 						"com"
 					],
 					"path": [
+						"todos",
 						""
 					]
 				}
