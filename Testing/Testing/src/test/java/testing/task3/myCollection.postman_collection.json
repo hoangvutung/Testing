@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "First Request",
+			"name": "https://jsonplaceholder.typicode.com/",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -26,9 +26,9 @@
 			"response": []
 		},
 		{
-			"name": "Second Request",
+			"name": "https://jsonplaceholder.typicode.com/users",
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
 				"url": {
 					"raw": "https://jsonplaceholder.typicode.com/users",
@@ -46,7 +46,7 @@
 			"response": []
 		},
 		{
-			"name": "Third Request",
+			"name": "https://jsonplaceholder.typicode.com/posts",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -66,9 +66,9 @@
 			"response": []
 		},
 		{
-			"name": "Post Request",
+			"name": "https://jsonplaceholder.typicode.com/users",
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"url": {
 					"raw": "https://jsonplaceholder.typicode.com/users",
