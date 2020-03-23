@@ -1,70 +1,90 @@
 {
-	"info": {
-		"_postman_id": "7bd1af6e-1bc8-4168-8447-5d039c8f5d83",
-		"name": "myCollection",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-	},
-	"item": [
-		{
-			"name": "First Request",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "https://jsonplaceholder.typicode.com/",
-					"protocol": "https",
-					"host": [
-						"jsonplaceholder",
-						"typicode",
-						"com"
-					],
-					"path": [
-						""
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Second Request",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "https://jsonplaceholder.typicode.com/users",
-					"protocol": "https",
-					"host": [
-						"jsonplaceholder",
-						"typicode",
-						"com"
-					],
-					"path": [
-						"users"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Third Request",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "https://jsonplaceholder.typicode.com/posts",
-					"protocol": "https",
-					"host": [
-						"jsonplaceholder",
-						"typicode",
-						"com"
-					],
-					"path": [
-						"posts"
-					]
-				}
-			},
-			"response": []
-		}
+	"id": "7bd1af6e-1bc8-4168-8447-5d039c8f5d83",
+	"name": "myCollection",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"95b244a4-a70f-4737-a3f8-ae5c5c1a5a82",
+		"fe301009-242c-4a1d-82d1-296e7dfd4228",
+		"8f34998e-05aa-4a09-86ee-0a8797f43a7a",
+		"2122d81a-7687-4253-af3a-9d7883a3cc07"
 	],
-	"protocolProfileBehavior": {}
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "2122d81a-7687-4253-af3a-9d7883a3cc07",
+			"name": "Post Request",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8f34998e-05aa-4a09-86ee-0a8797f43a7a",
+			"name": "Third Request",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "95b244a4-a70f-4737-a3f8-ae5c5c1a5a82",
+			"name": "First Request",
+			"url": "https://jsonplaceholder.typicode.com/",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "fe301009-242c-4a1d-82d1-296e7dfd4228",
+			"name": "Second Request",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
 }
