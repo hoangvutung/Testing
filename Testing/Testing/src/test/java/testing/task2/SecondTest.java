@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.ElementNotVisibleException;
 
 import static org.junit.Assert.assertEquals;
 
@@ -25,8 +26,8 @@ public class SecondTest {
     	driver.manage().window().maximize();
     	homePage = PageFactory.initElements(driver, HomePage.class);
     	driver.get("https://jdi-framework.github.io/tests/index.htm");
-    	WebElement dynamicElement = (new WebDriverWait(driver, 10))
-    			.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/header/div/nav/ul[2]/li/a/div/i")));
+    	WebDriverWait dynamicElement = new WebDriverWait(driver, 10);
+    	dynamicElement.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/header/div/nav/ul[2]/li/a/div/i")));
     	assertEquals(homePage.isLoggedIn(FIRST_PAGE_DATA.LOGIN.str, FIRST_PAGE_DATA.PASSWORD.str),true);
     	homePage.Metals.click();
 	}

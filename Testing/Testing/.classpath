@@ -48,5 +48,13 @@
 	<classpathentry kind="lib" path="C:/Users/pc/Downloads/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/jaxb-osgi-2.3.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/pc/Downloads/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/org.apache.sling.javax.activation-0.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/pc/Downloads/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/lib/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/lib/cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/lib/cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/lib/cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/lib/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/lib/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/lib/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/lib/cucumber-reporting-2.3.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -27,8 +27,8 @@ public class ThirdTest {
     	driver.manage().window().maximize();
     	homePage = PageFactory.initElements(driver, HomePage.class);
     	driver.get("https://jdi-framework.github.io/tests/index.htm");
-    	WebElement dynamicElement = (new WebDriverWait(driver, 10))
-    			.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/header/div/nav/ul[2]/li/a/div/i")));
+    	WebDriverWait dynamicElement = new WebDriverWait(driver, 10);
+    	dynamicElement.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/header/div/nav/ul[2]/li/a/div/i")));
     	assertEquals(homePage.isLoggedIn(FIRST_PAGE_DATA.LOGIN.str, FIRST_PAGE_DATA.PASSWORD.str),true);
     	homePage.serviceLeftSection.click();
     	homePage.serviceHeader.click();

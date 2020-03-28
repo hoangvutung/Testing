@@ -19,7 +19,7 @@ public class TestSearch {
 		elem.submit();
 	 }
 	 public void verifyFirstResult(String correctText) {
-		 List<WebElement> results = webdriver.findElements(By.xpath("//*[@id=\"rso\"]/div[1]/div[1]/div/div[1]/a/h3"));
+		 List<WebElement> results = webdriver.findElements(By.xpath("//*[@id=\"rso\"]/div[1]/div/div[1]/a/h3"));
 	     assertEquals(correctText, results.get(0).getText());
 	 }
 
