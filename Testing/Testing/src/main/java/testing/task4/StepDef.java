@@ -49,6 +49,11 @@ public class StepDef {
 		homePage.Submit.click();
     	assertEquals(driver.getTitle(),SECONDPAGE_DATA.TITLE.str);
     	assertEquals(homePage.Result.getText(),SECONDPAGE_DATA.RESULT.strArr[0]);
+    	
+    	homePage.selectRadioElements(SECONDPAGE_DATA.SUM.strArr[2]);
+    	homePage.Submit.click();
+    	assertEquals(driver.getTitle(),SECONDPAGE_DATA.TITLE.str);
+    	assertEquals(homePage.Result.getText(),SECONDPAGE_DATA.RESULT.strArr[1]);
 	}
 	@When("^Click on different page$")
 	public void differentPage() {
@@ -62,6 +67,10 @@ public class StepDef {
 		homePage.selectBoxElements(THIRDPAGE_DATA.CHECK_BOXES.strArr[0]);
     	String str1= homePage.Log.get(0).getText().substring(9, homePage.Log.get(0).getText().length());
     	assertEquals(str1,THIRDPAGE_DATA.LOG.strArr[0]);
+    	
+    	homePage.selectRadioElements2(THIRDPAGE_DATA.RADIOS.strArr[3]);
+    	str1=homePage.Log.get(0).getText().substring(9, homePage.Log.get(0).getText().length());
+    	assertEquals(str1,THIRDPAGE_DATA.LOG.strArr[1]);
 	}
 	@Then("^Close Chrome$")
 	public void afterTest() {
