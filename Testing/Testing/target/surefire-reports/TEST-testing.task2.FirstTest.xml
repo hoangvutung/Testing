@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="testing.task2.FirstTest" time="54.291" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="testing.task2.FirstTest" time="32.541" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.2+10"/>
@@ -61,6 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="testing.task2.FirstTest" name="FirstPage_1" time="30.291"/>
-  <testcase classname="testing.task2.FirstTest" name="FirstPage_2" time="24"/>
+  <testcase classname="testing.task2.FirstTest" name="FirstPage_1" time="12.346"/>
+  <testcase classname="testing.task2.FirstTest" name="FirstPage_2" time="20.195"/>
 </testsuite>
